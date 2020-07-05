@@ -1,0 +1,21 @@
+Create a todo List
+
+1) List out all the objective in DOM
+2) Append a button to each objective
+3) present = false
+4) Call a function (updateDOM) where the DOM gets refreshed
+
+
+updateDOM() {
+
+    if(present == true){
+        Do step 1 and 2
+        if step 4 happens (when the button[DONE] gets clicked) and call updateDOM
+    }
+}
+
+
+func () {
+    when button gets clicked array is appended and updateDOM is called with present value of the 
+    current objective as true
+}
